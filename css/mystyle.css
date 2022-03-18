@@ -1,0 +1,202 @@
+body {
+  font-family: "Text", "Helvetica", "Helvetica", "Arial";
+  background-color: blueviolet;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #f5f5f7;
+  opacity: 0.8;
+}
+.nav-link {
+  opacity: 1;
+  font-size: 13px;
+  margin-left: 3px;
+}
+.navbar {
+  list-style: none;
+  margin: 0 40px;
+}
+#navbar {
+  background-color: #f1faee;
+}
+.footer {
+  position: relative;
+  background: #140B5C;
+  left: 0;
+  width: 100%;
+  background: rgba(32, 7, 255, 0.1);
+  text-align: center;
+  color: rgb(17, 16, 16);
+  font-weight: 400;
+}
+.try {
+  background-color: white;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  box-shadow: 5px 10px #383636;
+  font-size: 14;
+  padding: 30px;
+  max-width: 500px;
+}
+#spacing {
+  width: 100%;
+  height: 15px;
+  background-color: #c7c7c7;
+}
+.formControl {
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.table {
+  width: 80%;
+  position: relative;
+  left: 8%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+}
+.row-table {
+  background-color: #c7c7c7;
+}
+label {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.row-register {
+  max-width: 500px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-family: "Sailec", sans-serif;
+  background-color: white;
+  box-shadow:  4px 4px 4px 4px rgb(5, 5, 119);
+}
+.form-register {
+  padding: 30px;
+}
+.form-group {
+  margin-top: 10px;
+}
+
+#header {
+  text-align: center;
+  line-height: 1.2;
+}
+.btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+}
+.card {
+  border: 3px solid rgb(0, 191, 255);
+  border-radius: 10px;
+  padding: 6px;
+  margin: 15px;
+  box-shadow: 5px 10px;
+  height: 750px;
+}
+.card-img-top{
+  height: 250px;
+}
+.container-login {
+  background-color: rgb(229, 153, 153);
+  max-width: 500px;
+  padding: 20px;
+  border: 3px solid rgb(5, 5, 119);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgb(5, 5, 119);
+}
+.row-login{
+  margin:40px;
+}
+.hesapOlusturma{
+  display: flex;
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+.page-header {
+  font-weight: 700;
+  color: black;
+  margin-bottom: 30px;
+}
+#algitsin {
+  letter-spacing: 5px;
+}
+#algitsin:hover {
+  color: yellow;
+  opacity: 0.8;
+}
+.card {
+  background-color: linen;
+}
+.container-about {
+  width: 70%;
+  margin: 0 auto;
+  color: linen;
+}
+.babout{
+  background-color: gray;
+}
+.about-section{
+  background: url(../img/3097875_1200x627.jpg) no-repeat left;
+  background-size: 65%;
+  background-color: gray;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
+
